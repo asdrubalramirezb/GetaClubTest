@@ -1,0 +1,1162 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.1256; Version 1903; 64bit' Language: 'es' Physical Memory: 8124 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UnityEditors\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub projects/GetaClubTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51558
+Successfully changed project path to: D:/GitHub projects/GetaClubTest
+D:/GitHub projects/GetaClubTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 84.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path D:/UnityEditors/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub projects/GetaClubTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'D:/UnityEditors/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditors/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityEditors/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001519 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 10.342000 ms (FindLiveObjects: 0.451700 ms CreateObjectMapping: 0.284600 ms MarkObjects: 9.432300 ms  DeleteObjects: 0.170200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GetaClubTest/Scenes/level1.unity
+  artifactKey: Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scenes/level1.unity using Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfeba1f2c9c4c8a8d713737e025add7') in 0.026567 seconds
+  Import took 0.032178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.499045 seconds.
+  path: Assets/Character Selector/Scenes/Selector.unity
+  artifactKey: Guid(f2fbc928757cf6f449fba88140380f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Scenes/Selector.unity using Guid(f2fbc928757cf6f449fba88140380f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f0ab87a5491bfa8f5786de4114e21c') in 0.014091 seconds
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 11.878200 ms (FindLiveObjects: 0.591000 ms CreateObjectMapping: 0.285500 ms MarkObjects: 10.941700 ms  DeleteObjects: 0.057800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.704330 seconds.
+  path: Assets/GetaClubTest/Scenes/level1.unity
+  artifactKey: Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scenes/level1.unity using Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0484dbb9336a388790a5494aa54956') in 0.019754 seconds
+  Import took 0.023746 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 19.773600 ms (FindLiveObjects: 1.826600 ms CreateObjectMapping: 2.312700 ms MarkObjects: 15.579000 ms  DeleteObjects: 0.053200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 12.560500 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.159400 ms MarkObjects: 11.875600 ms  DeleteObjects: 0.062800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.257424 seconds.
+  path: Assets/Character Selector/Scripts
+  artifactKey: Guid(6d8a46b672e3b8f438c18dde7d4fa9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Scripts using Guid(6d8a46b672e3b8f438c18dde7d4fa9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16382295960fda941eed1ac7feb96b5') in 0.014930 seconds
+  Import took 0.019846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.600260 seconds.
+  path: Assets/Character Selector/Scripts/CharacterController.cs
+  artifactKey: Guid(d6470c0563d695d41a047aff8d04dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Scripts/CharacterController.cs using Guid(d6470c0563d695d41a047aff8d04dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56306876f9fc25feadc5e123e16927b1') in 0.061319 seconds
+  Import took 0.066155 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 11.269500 ms (FindLiveObjects: 0.456900 ms CreateObjectMapping: 0.170700 ms MarkObjects: 10.579100 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 11.218100 ms (FindLiveObjects: 0.422600 ms CreateObjectMapping: 0.190700 ms MarkObjects: 10.548400 ms  DeleteObjects: 0.053500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.286074 seconds.
+  path: Assets/Character Selector/Scripts/CharacterController.cs
+  artifactKey: Guid(d6470c0563d695d41a047aff8d04dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Scripts/CharacterController.cs using Guid(d6470c0563d695d41a047aff8d04dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada9ecb1eea33fb70c73ad97feee714') in 0.007550 seconds
+  Import took 0.012574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.106528 seconds.
+  path: Assets/GetaClubTest/Scenes/level1.unity
+  artifactKey: Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scenes/level1.unity using Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b43205b79cbcd44fc8408095997362f') in 0.013914 seconds
+  Import took 0.018987 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 11.080400 ms (FindLiveObjects: 0.578900 ms CreateObjectMapping: 0.233800 ms MarkObjects: 10.189800 ms  DeleteObjects: 0.073600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 11.550000 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.158500 ms MarkObjects: 10.973400 ms  DeleteObjects: 0.042900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.369405 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.328 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 10.930000 ms (FindLiveObjects: 0.509700 ms CreateObjectMapping: 0.194500 ms MarkObjects: 10.160500 ms  DeleteObjects: 0.062700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.088510 seconds.
+  path: Assets/GetaClubTest/Scenes/level1.unity
+  artifactKey: Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scenes/level1.unity using Guid(c10f0a70b01f7b54a8a108923bf995e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5574b05fb6068e1cbafedef2a25a608') in 0.025849 seconds
+  Import took 0.032265 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 12.173700 ms (FindLiveObjects: 0.423200 ms CreateObjectMapping: 0.252500 ms MarkObjects: 11.413800 ms  DeleteObjects: 0.080000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 9.237900 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.147900 ms MarkObjects: 8.631000 ms  DeleteObjects: 0.065900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002323 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 9.708700 ms (FindLiveObjects: 0.444100 ms CreateObjectMapping: 0.161200 ms MarkObjects: 9.055000 ms  DeleteObjects: 0.046200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002091 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 10.470400 ms (FindLiveObjects: 0.446800 ms CreateObjectMapping: 0.189600 ms MarkObjects: 9.770500 ms  DeleteObjects: 0.060300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.440258 seconds.
+  path: Assets/GetaClubTest/Scripts/BirdkEntityStp3.cs
+  artifactKey: Guid(d6a54ffdca52df74caff2f8a2e26109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scripts/BirdkEntityStp3.cs using Guid(d6a54ffdca52df74caff2f8a2e26109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5567262f2a66b4d3940649cc14133ec2') in 0.013343 seconds
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044828 seconds.
+  path: Assets/GetaClubTest/Scripts/BirdkEntityStp3.cs
+  artifactKey: Guid(d6a54ffdca52df74caff2f8a2e26109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scripts/BirdkEntityStp3.cs using Guid(d6a54ffdca52df74caff2f8a2e26109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5567262f2a66b4d3940649cc14133ec2') in 0.005167 seconds
+  Import took 0.009127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.956697 seconds.
+  path: Assets/GetaClubTest/Scripts/BirdEntityBase3.cs
+  artifactKey: Guid(d71d173e544441844a8964ca4a510a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scripts/BirdEntityBase3.cs using Guid(d71d173e544441844a8964ca4a510a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d596b6aa53d995f958977ee3e97a23f') in 0.011250 seconds
+  Import took 0.017100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003562 seconds.
+  path: Assets/GetaClubTest/Scripts/BirdEntityBase3.cs
+  artifactKey: Guid(d71d173e544441844a8964ca4a510a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GetaClubTest/Scripts/BirdEntityBase3.cs using Guid(d71d173e544441844a8964ca4a510a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d596b6aa53d995f958977ee3e97a23f') in 0.004785 seconds
+  Import took 0.009823 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 11.288500 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.165100 ms MarkObjects: 10.672800 ms  DeleteObjects: 0.070800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 11.127500 ms (FindLiveObjects: 0.538200 ms CreateObjectMapping: 0.205100 ms MarkObjects: 10.326000 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 10.624600 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.275300 ms MarkObjects: 9.961900 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 9.427100 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.167300 ms MarkObjects: 8.810100 ms  DeleteObjects: 0.051200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 9.353100 ms (FindLiveObjects: 0.722300 ms CreateObjectMapping: 0.333700 ms MarkObjects: 8.256400 ms  DeleteObjects: 0.038200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 11.516400 ms (FindLiveObjects: 0.434300 ms CreateObjectMapping: 0.229400 ms MarkObjects: 10.794900 ms  DeleteObjects: 0.055200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 10.246700 ms (FindLiveObjects: 0.551300 ms CreateObjectMapping: 0.272800 ms MarkObjects: 9.371200 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 9.772800 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.146200 ms MarkObjects: 9.263600 ms  DeleteObjects: 0.037000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 10.392400 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.238800 ms MarkObjects: 9.638200 ms  DeleteObjects: 0.050400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 8.980100 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.174100 ms MarkObjects: 8.318100 ms  DeleteObjects: 0.041500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 9.776600 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.134200 ms MarkObjects: 9.208700 ms  DeleteObjects: 0.059900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 9.706400 ms (FindLiveObjects: 0.418100 ms CreateObjectMapping: 0.162100 ms MarkObjects: 9.063900 ms  DeleteObjects: 0.058400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 9.586500 ms (FindLiveObjects: 0.675900 ms CreateObjectMapping: 0.345900 ms MarkObjects: 8.490700 ms  DeleteObjects: 0.070900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 18.515800 ms (FindLiveObjects: 2.932600 ms CreateObjectMapping: 1.564400 ms MarkObjects: 13.949000 ms  DeleteObjects: 0.067100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 11.693500 ms (FindLiveObjects: 0.689800 ms CreateObjectMapping: 0.460600 ms MarkObjects: 10.478800 ms  DeleteObjects: 0.061600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1295.180296 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.170690 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.174848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012397 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011821 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002644 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011912 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003343 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010264 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004630 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010585 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004819 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011151 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005664 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010894 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007452 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011281 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005848 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010737 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004412 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.012490 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002811 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.012291 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.017690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005765 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.009683 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004726 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010612 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003711 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010231 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006082 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010046 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013434 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009373 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011896 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011883 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002232 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011564 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003337 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009149 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007807 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010418 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004998 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010853 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004778 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011772 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002903 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010722 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002771 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.009303 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006673 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010778 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002927 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010278 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002787 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010869 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.015644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003757 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008531 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.013724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010266 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009536 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003135 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.009191 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003009 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011452 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.016279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003116 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008940 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009161 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assertion failed on expression: 'success && actual == size'
+
+Assertion failed on expression: 'success && actual == size'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.009428 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.014805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003181 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008713 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.013642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007146 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Selector/Font/8477.ttf using Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008690 seconds
+  ERROR: Failed to write the asset file 'Assets/Character Selector/Font/8477.ttf'
+  Import took 0.013387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006373 seconds.
+  path: Assets/Character Selector/Font/8477.ttf
+  artifactKey: Guid(197f2a175262d3d43900b7b04111e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Import took 0.014451 seconds .
+
