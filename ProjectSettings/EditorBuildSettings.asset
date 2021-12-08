@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Character Selector/Scenes/Selector.unity
+    path: Assets/GetaClubTest/Scenes/Selector.unity
     guid: f2fbc928757cf6f449fba88140380f9a
   - enabled: 1
     path: Assets/GetaClubTest/Scenes/level1.unity

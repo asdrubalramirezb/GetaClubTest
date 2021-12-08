@@ -16,7 +16,7 @@ public class MidFlyVelocityBehave : MonoBehaviour,IMidFlyAble
         this.movementCtrl = movementCtrl;
     }
 
-    public void PerformMidFlyBehave()
+    public  void PerformMidFlyBehave()
     {
         // var endPoint = (transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition)).normalized;
         var mousePos = Input.mousePosition;

@@ -26,4 +26,5 @@ public class MovementController : MonoBehaviour
 		GetComponentInChildren<Rigidbody>().angularVelocity = Vector3.zero;
 		GetComponentInChildren<Rigidbody>().isKinematic = true;
 	}
+	
 }

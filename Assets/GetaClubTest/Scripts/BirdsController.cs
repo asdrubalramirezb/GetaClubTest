@@ -1,4 +1,4 @@
-﻿using TMPro;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -42,6 +42,7 @@ public class BirdsController : MonoBehaviour
     public GameObject[] myPrefabs;
 
     int character;
+    public Rigidbody rb;
     //---------------------------------------
     void Awake()
     {
@@ -49,8 +50,8 @@ public class BirdsController : MonoBehaviour
         {
             Instance = this;
         }
-
        character = CharacterSelector.character;
+       Debug.Log(character);
        myPrefabs[character].SetActive(true);
 
         if (birdEntityEntity == null)
@@ -60,7 +61,7 @@ public class BirdsController : MonoBehaviour
 
     void Start()
     {
-  
+        rb =  GetComponentInChildren<Rigidbody>();
         cam = Camera.main;
         birdEntityEntity.DisableBehave();
         initPos = birdEntityEntity.transform.position;
@@ -69,9 +70,6 @@ public class BirdsController : MonoBehaviour
         timerText = GameObject.Find("Text (TMP)").GetComponent<TMP_Text>();
 
     }
-
-
-
 
     void Update()
     {
@@ -82,9 +80,19 @@ public class BirdsController : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(0) && Launched && !midFlyAPplied)
         {
+            Debug.Log("aqui");
             birdEntityEntity.GetComponentInChildren<IMidFlyAble>().PerformMidFlyBehave();
-            // birdEntityEntity.PerformMidFlyBehave();
+            //birdEntityEntity.PerformMidFlyBehave();
             midFlyAPplied = true;
+        }
+
+        if (rb.velocity.y < 0 )
+        {
+           Vector3 actualPos = birdEntityEntity.transform.position;
+           GameObject actualBird = myPrefabs[character];
+           Halfway.instance.ExplotionBehave(actualPos);
+           Halfway.instance.BirdTriplication( actualPos, actualBird);
+
         }
 
         if (Input.GetMouseButtonUp(0) && !Launched)
@@ -117,6 +125,14 @@ public class BirdsController : MonoBehaviour
                 birdEntityEntity.GetComponentInChildren<IDisapperable>()?.DisappearBird();
                 disappeared = true;
             }
+
+           /* if (time == 1f)
+            {
+                 Vector3 actualPos = birdEntityEntity.transform.position;
+                 GameObject actualBird = myPrefabs[character];
+                 Halfway.instance.ExplotionBehave(actualPos);
+                 Halfway.instance.BirdTriplication( actualPos, actualBird);
+            }*/
 
             if (time >= Timeforrespawn)
             {
