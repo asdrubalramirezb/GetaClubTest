@@ -9,8 +9,14 @@ public class Halfway : MonoBehaviour
 	public GameObject fx_prefabs;
     GameObject  BirdController;
      public float Timeforrespawn = 3f;
+
      public float time;
      public List<GameObject> clones = new List<GameObject>();
+
+
+    [Header("Sound")]
+    public AudioClip birdAudioClip;
+    public AudioSource birdAudioSrc;
      //GameObject[] clones;
 	
     private void Awake()
@@ -47,6 +53,11 @@ public class Halfway : MonoBehaviour
                     Destroy(clones[i]);
              }
             clones.Clear();
+    }
+
+    public void ExplotionSound()
+    {
+        birdAudioSrc.PlayOneShot(birdAudioClip);
     }
 
 }

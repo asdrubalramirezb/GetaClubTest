@@ -65,7 +65,7 @@ public class CharacterSelector : MonoBehaviour
                    smoothedX = Mathf.SmoothStep(parentScroll.transform.position.x, points[i].x - distance / 2, smoothSpeed);
                    smoothedScale = Mathf.SmoothStep(bigScale[i].x, defaultScale[i].x, smoothSpeed);
                    characterName.text = names[i];
-                   ButtonClick(names[i]);
+                   //ButtonClick(names[i]);
                }
                else smoothedScale = Mathf.SmoothStep(defaultScale[i].x, bigScale[i].x, smoothSpeed);
                instatiatedObj[i].transform.localScale = new Vector3(smoothedScale, smoothedScale, smoothedScale);
@@ -76,19 +76,20 @@ public class CharacterSelector : MonoBehaviour
         }
         parentScroll.transform.position = new Vector2(smoothedX, parentScroll.transform.position.y);
     }
-    public void ButtonClick(string name)
+    public void ButtonClick()
     {
        
         if(EventSystem.current.currentSelectedGameObject.name == "Select") // CODE FOR "SELECT" BUTTON
         {
             //print("select");
-            if (name == "Bird2"){
+            if ( characterName.text == "bird2"){
                 character = 0;
-            }else if (name == "Bird4" ){
+            }else if ( characterName.text == "Bird4" ){
                 character = 1;
-            }else if (name == "Bird0" ){
+            }else if ( characterName.text == "Bird0" ){
                 character = 2;
             }
+            Debug.Log (character);
             SceneManager.LoadScene("level1");
             // WRITE HERE
         }

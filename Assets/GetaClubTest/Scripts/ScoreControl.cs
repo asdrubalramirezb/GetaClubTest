@@ -9,9 +9,11 @@ public class ScoreControl : MonoBehaviour
     [SerializeField] private Rigidbody rb;
     [SerializeField] private Collider col;
 
+    
+    Text scoreText;
+
     public static int score;
 
-    Text scoreText;
 
 
     private void Awake()
@@ -22,15 +24,16 @@ public class ScoreControl : MonoBehaviour
     }
 
     void Start() {
-
+        
+        
         score = 0;
     }
      void OnTriggerEnter(Collider other) {
          Debug.Log("score");
          if (other.name == "BirdObj"){
          score++;
-
          }
          scoreText.text = score.ToString();
      }
+
 }

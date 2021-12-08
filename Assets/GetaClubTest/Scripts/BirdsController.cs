@@ -2,6 +2,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using System.Linq;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
 
 
 public class BirdsController : MonoBehaviour
@@ -34,18 +39,25 @@ public class BirdsController : MonoBehaviour
     private Vector3 force;
     public float distance;
 
-    private Text timerText;
-
-    public float time;
-
     private Vector3 initPos;
     private Vector3 initScale;
     private Quaternion initRot;
     public GameObject[] myPrefabs;
 
+    [Header("Text Asset")]
+    public TextAsset wordsSource;
+
+    [Header("List of Words")]
+    public List<string> words = new List<string>();
     int character;
     public Rigidbody rb;
     int count = 0;
+    private Text timerText;
+    public float time;
+    Image BirdCharacter;
+    public Sprite[] spriteBirds;
+    private Text BirdText;
+
     //---------------------------------------
     void Awake()
     {
@@ -53,12 +65,14 @@ public class BirdsController : MonoBehaviour
         {
             Instance = this;
         }
+       words = wordsSource.text.Split(',').ToList();
+       BirdCharacter = GameObject.Find("BirdCharacter").GetComponent<Image>();
+       BirdText = GameObject.Find("BirdText").GetComponent<Text>();
        character = CharacterSelector.character;
        myPrefabs[character].SetActive(true);
 
         if (birdEntityEntity == null)
             birdEntityEntity = GetComponentInChildren<BirdEntityBase3>();
-         
     }
 
     void Start()
@@ -70,6 +84,9 @@ public class BirdsController : MonoBehaviour
         initRot = birdEntityEntity.transform.rotation;
         initScale = birdEntityEntity.transform.localScale;
         timerText = GameObject.Find("TimerText").GetComponent<Text>();
+        BirdCharacter.sprite = spriteBirds[character]; 
+        BirdText.text = words[character];
+
 
     }
 
@@ -96,6 +113,7 @@ public class BirdsController : MonoBehaviour
         if ( count == 1){
            Vector3 actualPos = birdEntityEntity.transform.position;
            GameObject actualBird = myPrefabs[character];
+           Halfway.instance.ExplotionSound();
            Halfway.instance.ExplotionBehave(actualPos);
            Halfway.instance.BirdTriplication( actualPos, actualBird, force);
         }

@@ -7,7 +7,7 @@ public abstract class BirdEntityBase3 : MonoBehaviour
     [SerializeField] protected GameObject birdObj;
     [SerializeField] protected MovementController MovementCtrl;
     [SerializeField] private AudioClip birdAudioClip;
-    public AudioSource birdAudioSrc;
+    [SerializeField] private AudioSource birdAudioSrc;
 
     public abstract void AppearBird();
     public abstract void DisableBehave();
