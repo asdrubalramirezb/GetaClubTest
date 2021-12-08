@@ -13,7 +13,6 @@ public class Trajectory_ColorControl : MonoBehaviour
     void Awake(){
 
         character = CharacterSelector.character;
-        Debug.Log(character);
         m_SpriteRenderer = dotPrefab.GetComponent<SpriteRenderer>();
         if(character == 0){
             m_SpriteRenderer.color = Color.black;
@@ -21,15 +20,10 @@ public class Trajectory_ColorControl : MonoBehaviour
          if(character == 1){
             m_SpriteRenderer.color = Color.white;
         }
-         if(character == 0){
+         if(character == 2){
             m_SpriteRenderer.color = Color.red;
          }
     }
    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

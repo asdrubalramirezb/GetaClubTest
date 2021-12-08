@@ -29,11 +29,12 @@ public class Halfway : MonoBehaviour
  
     } 
 
-     public void BirdTriplication(Vector3 Birdposition, GameObject bird){
+     public void BirdTriplication(Vector3 Birdposition, GameObject bird, Vector2 force){
          for (int i = 0; i<2; i++){
             GameObject cloneBird = Instantiate(bird);
             cloneBird.transform.SetParent(BirdController.transform);
             cloneBird.transform.position = Birdposition;
+		    cloneBird.GetComponent<Rigidbody>().AddForce (force, ForceMode.Impulse);
             clones.Add(cloneBird);
          }
          StartCoroutine(DestroyClones());

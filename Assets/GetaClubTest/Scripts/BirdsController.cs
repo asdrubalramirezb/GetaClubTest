@@ -1,6 +1,8 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
+
 
 public class BirdsController : MonoBehaviour
 {
@@ -32,7 +34,7 @@ public class BirdsController : MonoBehaviour
     private Vector3 force;
     public float distance;
 
-    private TMP_Text timerText;
+    private Text timerText;
 
     public float time;
 
@@ -43,6 +45,7 @@ public class BirdsController : MonoBehaviour
 
     int character;
     public Rigidbody rb;
+    int count = 0;
     //---------------------------------------
     void Awake()
     {
@@ -51,7 +54,6 @@ public class BirdsController : MonoBehaviour
             Instance = this;
         }
        character = CharacterSelector.character;
-       Debug.Log(character);
        myPrefabs[character].SetActive(true);
 
         if (birdEntityEntity == null)
@@ -67,7 +69,7 @@ public class BirdsController : MonoBehaviour
         initPos = birdEntityEntity.transform.position;
         initRot = birdEntityEntity.transform.rotation;
         initScale = birdEntityEntity.transform.localScale;
-        timerText = GameObject.Find("Text (TMP)").GetComponent<TMP_Text>();
+        timerText = GameObject.Find("TimerText").GetComponent<Text>();
 
     }
 
@@ -88,11 +90,14 @@ public class BirdsController : MonoBehaviour
 
         if (rb.velocity.y < 0 )
         {
+            count ++; 
+        }
+
+        if ( count == 1){
            Vector3 actualPos = birdEntityEntity.transform.position;
            GameObject actualBird = myPrefabs[character];
            Halfway.instance.ExplotionBehave(actualPos);
-           Halfway.instance.BirdTriplication( actualPos, actualBird);
-
+           Halfway.instance.BirdTriplication( actualPos, actualBird, force);
         }
 
         if (Input.GetMouseButtonUp(0) && !Launched)
@@ -126,19 +131,12 @@ public class BirdsController : MonoBehaviour
                 disappeared = true;
             }
 
-           /* if (time == 1f)
-            {
-                 Vector3 actualPos = birdEntityEntity.transform.position;
-                 GameObject actualBird = myPrefabs[character];
-                 Halfway.instance.ExplotionBehave(actualPos);
-                 Halfway.instance.BirdTriplication( actualPos, actualBird);
-            }*/
-
             if (time >= Timeforrespawn)
             {
                 birdEntityEntity.DisableBehave();
                 ResetBird();
                 time = 0;
+                count = 0;
             }
         }
 
@@ -195,4 +193,6 @@ public class BirdsController : MonoBehaviour
 
         Launched = true;
     }
+
+    
 }
