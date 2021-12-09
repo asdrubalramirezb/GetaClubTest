@@ -51,7 +51,7 @@ public class BirdsController : MonoBehaviour
     public List<string> words = new List<string>();
     int character;
     public Rigidbody rb;
-    int count = 0;
+    int count;
     private Text timerText;
     public float time;
     Image BirdCharacter;
@@ -77,6 +77,7 @@ public class BirdsController : MonoBehaviour
 
     void Start()
     {
+        count = 0;
         rb =  GetComponentInChildren<Rigidbody>();
         cam = Camera.main;
         birdEntityEntity.DisableBehave();
@@ -111,11 +112,13 @@ public class BirdsController : MonoBehaviour
         }
 
         if ( count == 1){
+           Debug.Log("instance");
            Vector3 actualPos = birdEntityEntity.transform.position;
            GameObject actualBird = myPrefabs[character];
            Halfway.instance.ExplotionSound();
            Halfway.instance.ExplotionBehave(actualPos);
            Halfway.instance.BirdTriplication( actualPos, actualBird, force);
+           count++;
         }
 
         if (Input.GetMouseButtonUp(0) && !Launched)

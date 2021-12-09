@@ -8,16 +8,13 @@ public class Halfway : MonoBehaviour
     public static Halfway instance;
 	public GameObject fx_prefabs;
     GameObject  BirdController;
-     public float Timeforrespawn = 3f;
-
-     public float time;
-     public List<GameObject> clones = new List<GameObject>();
-
+    public float Timeforrespawn = 3f;
+    public float time;
+    public List<GameObject> clones = new List<GameObject>();
 
     [Header("Sound")]
     public AudioClip birdAudioClip;
     public AudioSource birdAudioSrc;
-     //GameObject[] clones;
 	
     private void Awake()
     {
@@ -26,7 +23,7 @@ public class Halfway : MonoBehaviour
     }
     void Start()
     {
-         BirdController =GameObject.Find("BirdsCntroller");
+         BirdController = GameObject.Find("BirdsCntroller");
     }
 
     public void ExplotionBehave(Vector3 Birdposition){
@@ -49,7 +46,7 @@ public class Halfway : MonoBehaviour
      IEnumerator DestroyClones()
     {
         yield return new WaitForSeconds(3);
-        for (int i = 0; i<2; i++){
+        for (int i = 0; i<clones.Count ; i++){
                     Destroy(clones[i]);
              }
             clones.Clear();

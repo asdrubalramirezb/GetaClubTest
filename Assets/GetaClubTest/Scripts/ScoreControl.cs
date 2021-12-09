@@ -14,7 +14,7 @@ public class ScoreControl : MonoBehaviour
 
     public static int score;
 
-
+    int winValue = 40;
 
     private void Awake()
     {
@@ -34,6 +34,10 @@ public class ScoreControl : MonoBehaviour
          score++;
          }
          scoreText.text = score.ToString();
+         if(score>winValue)
+         {
+             scoreText.text = winValue.ToString();
+         }
      }
 
 }
